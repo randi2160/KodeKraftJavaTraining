@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-19T22:18:37 IST" name="Test Parameters" finished-at="2024-01-19T22:18:37 IST" duration-ms="25">
+    <groups>
+    </groups>
+    <test started-at="2024-01-19T22:18:37 IST" name="Test Parameter via XML file" finished-at="2024-01-19T22:18:37 IST" duration-ms="25">
+      <class name="com.testng.training.TestParameters">
+        <test-method signature="testCaseOne(java.lang.String)[pri:0, instance:com.testng.training.TestParameters@1184ab05]" started-at="2024-01-19T22:18:37 IST" name="testCaseOne" finished-at="2024-01-19T22:18:37 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method signature="testCaseTwo(java.lang.String,java.lang.String)[pri:0, instance:com.testng.training.TestParameters@1184ab05]" started-at="2024-01-19T22:18:37 IST" name="testCaseTwo" finished-at="2024-01-19T22:18:37 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anshulc55@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+      </class> <!-- com.testng.training.TestParameters -->
+    </test> <!-- Test Parameter via XML file -->
+  </suite> <!-- Test Parameters -->
+</testng-results>
